@@ -21,10 +21,15 @@
 ### Then you have a vagrantfile file a many comments , the basics config that you need its below
 
 > config.vm.define "controlNode" # ==> **machine name**
+
 > config.vm.hostname = 'controlNode' # ==> **host name**
+
 > config.vm.box = "ubuntu/trusty64" # **vagrat box its similar a image from docker or ubuntu**
+
 > config.vm.network "private_network", ip: "192.168.1.8" #**your network**
+
 > config.vm.synced_folder "./data", "/home/vagrant/data" #**if you want to paste files in a folder and then apper inside your virtual machine you sync**
+
 > config.vm.provision "shell", path:"provision.sh" #**this is a shellScript that will run in the moment the you start your machine ,most the time its configuration scripts to install package and those stuff** ;
 
 ## This is my little project that has two machines
