@@ -1,0 +1,1 @@
+{"virtualbox":{"/home/vagrant/data":{"guestpath":"/home/vagrant/data","hostpath":"C:/dev/devops/ubuntuVagrant/controlNode/data","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"C:/dev/devops/ubuntuVagrant/controlNode","disabled":false,"__vagrantfile":true}}}
