@@ -16,7 +16,7 @@
 
 ### Lets suppose that you're in a controlNode and want to acess another vm use the command bellow
 
-> ssh vagrant@(machine name or ip)
+> ssh vagrant@(machine name or ip(prefer to use this one , some times the machine name does not work))
 
 ### Then you have a vagrantfile file a many comments , the basics config that you need its below
 
