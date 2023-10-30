@@ -1,5 +1,8 @@
 #!/bin/bash
 
+#generate keygen
+ssh-keygen
+
 # Update the package list and upgrade installed packages
 sudo apt update
 sudo apt upgrade -y

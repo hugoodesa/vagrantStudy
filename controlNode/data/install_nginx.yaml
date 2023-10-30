@@ -1,0 +1,16 @@
+---
+- hosts: all # Replace 'your_target_machine' with the host or group name in your inventory file
+  become: true # Run tasks with escalated privileges (sudo)
+
+  tasks:
+    - name: Update apt cache
+      apt:
+        update_cache: yes
+
+    - name: Install Node.js and npm
+      apt:
+        name: "{{ item }}"
+        state: present
+      with_items:
+        - nodejs
+        - npm
